@@ -1,0 +1,19 @@
+#heading_div{
+    text-align: center;
+    font-style: oblique;
+    color: orangered;
+}
+
+#back_div{
+	text-align: center;
+	color: red;
+	border: 5px solid blue;
+	float:left;
+}
+
+#logo{
+	height:520px;
+	width:520px;
+	position: absolute;
+	top: 400px;
+}

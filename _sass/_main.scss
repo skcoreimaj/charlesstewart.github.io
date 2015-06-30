@@ -1,65 +1,86 @@
 /* Navigation */
-.side-nav {
+.side-nav{
   text-decoration: none;
+
   position: fixed;
   width: 100%;
   max-width: 250px;
   height: 100%;
   margin-left: -250px;
+
   box-sizing: border-box;
   background-color: cornflowerblue;
   padding: 20px;
+
   -webkit-transition: margin 200ms ease-in-out;
   -moz-transition: margin 200ms ease-in-out;
-  transition: margin 200ms ease-in-out; }
-  .side-nav ul {
-    list-style-type: none; }
-  .side-nav a {
+  transition: margin 200ms ease-in-out;
+
+  ul{
+    list-style-type: none;
+  }
+
+  a{
     text-decoration: none;
     font-size: 26px;
     font: 1em "Helvetica", sans-sarif;
-    color: #ffffff; }
-  .side-nav .nav-toggle {
+    color: #ffffff;
+  }
+  .nav-toggle{
     position: absolute;
     right: -40px;
     top: 40%;
     width: 40px;
     height: 80px;
-    background-color: cornflowerblue; }
-  .side-nav .nav-toggle:before {
-    background-color: aqua; }
+    background-color: cornflowerblue;
+  }
+  .nav-toggle:before{
+    background-color: aqua;
+  }
+}
 
-.side-nav.nav-open {
-  margin-left: 0; }
+.side-nav.nav-open{
+  margin-left: 0;
+}
+
+
 
 /* Text */
-h1, h2 {
+h1, h2{
   font-size: 32px;
   font-style: oblique;
-  text-align: center; }
+  text-align: center;
+}
+h2{
+  color: #212121;
+}
 
-h2 {
-  color: #212121; }
-
-body {
+body{
   padding: 10px 10px 10px;
-  background-color: aquamarine; }
-
+  background-color: aquamarine;
+}
 /* Header and footer */
 footer, header {
   background-color: #212121;
   color: #ffffff;
+
   font-size: 24px;
   text-align: center;
+
   position: absolute;
-  clear: both; }
+  clear: both;
+}
 
-footer {
+footer{
   bottom: 5px;
-  height: 60px; }
-
-header {
   height: 60px;
-  top: 5px; }
-  header h1 {
-    font-size: 28px; }
+}
+
+header{
+  height: 60px;
+  top: 5px;
+  h1{
+    font-size:28px;
+  }
+}
+

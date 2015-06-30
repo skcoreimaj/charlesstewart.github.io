@@ -1,0 +1,40 @@
+/*
+Error: Invalid CSS after "@import "main"": expected "{", was ";"
+        on line 4 of screen.scss
+
+1: ---
+2: ---
+3: 
+4: @import "main";
+
+Backtrace:
+screen.scss:4
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:1162:in `expected'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:1098:in `expected'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:1093:in `tok!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:638:in `block'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:632:in `ruleset'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:657:in `block_child'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:647:in `block_contents'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:117:in `stylesheet'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:42:in `parse'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/engine.rb:403:in `_to_tree'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/engine.rb:295:in `render_with_sourcemap'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/plugin.rb:82:in `update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/exec/sass_scss.rb:364:in `watch_or_update'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.15/bin/scss:13:in `<top (required)>'
+C:/Ruby200-x64/bin/scss:23:in `load'
+C:/Ruby200-x64/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@import \"main\"\": expected \"{\", was \";\"\A         on line 4 of screen.scss\A \A 1: ---\A 2: ---\A 3: \A 4: @import \"main\";"; }
